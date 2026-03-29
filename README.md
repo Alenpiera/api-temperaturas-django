@@ -2,7 +2,7 @@
 
 API desarrollada con **Django REST Framework (DRF)** para gestionar registros de temperatura de diferentes ciudades. Implementa un sistema CRUD completo con autenticación por tokens y permisos granulares.
 
-## 📋 Características
+##  Características
 
 * **CRUD Completo:** Crear, Leer, Actualizar y Eliminar registros de temperatura.
 * **Autenticación por Token:** Seguridad integrada para operaciones de escritura.
@@ -12,14 +12,14 @@ API desarrollada con **Django REST Framework (DRF)** para gestionar registros de
 * **Validaciones:** Control de unicidad por ciudad y tipos de datos.
 * **Unit Testing:** Cobertura de pruebas automatizadas.
 
-## 🛠 Tecnologías
+## Tecnologías
 
 * Python 3.x
 * Django 5.x
 * Django REST Framework
 * SQLite (Base de datos)
 
-## 🚀 Instalación y Configuración
+##  Instalación y Configuración
 
 Sigue estos pasos para levantar el proyecto en local:
 
@@ -43,7 +43,7 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
-4. Migraciones y Superusuario
+### 4. Migraciones y Superusuario
 
 python manage.py migrate
 python manage.py createsuperuser
@@ -82,5 +82,28 @@ El proyecto incluye pruebas unitarias para validar la seguridad y los endpoints.
 
 python manage.py test
 
+
+### Documentación Interactiva (Swagger)
+
+Esta API utiliza drf-yasg para auto-documentar los endpoints.
+Puedes acceder a la interfaz gráfica interactiva visitando:
+
+Swagger UI: https://www.google.com/search?q=http://127.0.0.1:8000/swagger/
+
+ReDoc: https://www.google.com/search?q=http://127.0.0.1:8000/redoc/
+
+
+
+### Capturas de Funcionamiento
+
+Vista general de Swagger:
+
+docs/swagger1.png
+
+Prueba de Endpoint:
+
+docs/swagger2.png
+docs/swagger3.png
+
  Autor
-Enrique Piedrahita - Desarrollador Backend
+Enrique Piedrahita 

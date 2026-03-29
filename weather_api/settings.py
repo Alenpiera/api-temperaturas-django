@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken', 
     'temperatures',             
     'django.contrib.staticfiles',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
